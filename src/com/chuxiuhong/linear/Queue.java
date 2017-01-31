@@ -5,9 +5,14 @@ import com.chuxiuhong.linear.Node;
 /**
  * Created by 56363 on 2017/1/30.
  */
+
+/**
+ *
+ * @param <T> 泛型队列的类型
+ */
 public class Queue<T> {
-    private Node<T> start;
-    private Node<T> end;
+    private Node<T> start; //初始节点，初始化为null
+    private Node<T> end; //结束节点，初始化为null
     private int length;
 
     public Queue() {
